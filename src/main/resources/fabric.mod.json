@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "biome_loot_mod",
+	"version": "${version}",
+	"name": "Biome Loot Mod",
+	"description": "Prueba del cofre para Eufonia Studio, mod server side para la generación de Loot aleatorio dependiendo del bioma",
+	"authors": [
+		"Jdotaz(UncleBen)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/biome_loot_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jdotaz.biome_loot_mod.BiomeLootMod"
+		],
+		"fabric-datagen": [
+			"net.jdotaz.biome_loot_mod.BiomeLootModDataGenerator"
+		]
+	},
+	"mixins": [
+		"biome_loot_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

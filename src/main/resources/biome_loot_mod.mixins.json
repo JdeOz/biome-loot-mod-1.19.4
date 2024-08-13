@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.jdotaz.biome_loot_mod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChestBlockEntityMixin",
+    "ChestBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
