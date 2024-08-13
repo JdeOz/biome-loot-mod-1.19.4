@@ -1,0 +1,11 @@
+{
+  "minecraft:plains": ["minecraft:chests/ancient_city"],
+  "minecraft:desert":  ["biome_loot_mod:chests/desert1", "biome_loot_mod:chests/desert2"],
+  "minecraft:savanna": ["biome_loot_mod:chests/savanna1", "biome_loot_mod:chests/savanna2"],
+  "minecraft:jungle": ["biome_loot_mod:chests/jungle1", "biome_loot_mod:chests/jungle2"],
+  "minecraft:forest": ["biome_loot_mod:chests/forest1", "biome_loot_mod:chests/forest2"],
+  "minecraft:swamp": ["biome_loot_mod:chests/swamp1"],
+  "minecraft:badlands": ["biome_loot_mod:chests/badlands1"],
+  "minecraft:mountains": ["biome_loot_mod:chests/mountains1", "biome_loot_mod:chests/mountains2",  "biome_loot_mod:chests/mountains3"],
+  "default": []
+}
